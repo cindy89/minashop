@@ -1,0 +1,4 @@
+minashop
+========
+
+struts2andhibernate
