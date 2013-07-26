@@ -1,0 +1,34 @@
+@CHARSET "utf-8";
+div,table,tr,td,input,form,a,h3{margin:0;padding:0;}
+table,tr,td{border:1px solid #FFB366;}
+th{background:#FFB366;}
+a{text-decoration:none;color:#888;}
+a:hover{color:#f00;}
+table,.header,.op{margin:10px auto;}
+.header{background:#FFB366;font-weight:900;font-size:14px;height:30px;line-height:30px;}
+.header,.op{width:800px;text-align:center;}
+.op{font-size:14px;}
+
+.row1,.row4{width:50px;}
+.row2{width:300px;}
+.row3,.row5{width:100px;}
+
+/*--------login--------*/
+#login table,#register table{width:300px;}
+#login td input,#register td input{width:200px;height:20px;}
+/*--------register--------*/
+
+/*-----bookList-----*/
+#bookList table,#cart table,#orderList table{width:700px;}
+#bookList td input{width:100px;height:20px;}
+/*--------cart----------*/
+#cart td input{width:50px;height:20px;}
+#cart .row4 input{50px;}
+
+/*---------order---------*/
+#confirmOrder h3,#order h3,#orderById h3{text-align:center;}
+#confirmOrder .userInfo,.orderInfo{width:400px;}
+#order .userInfo,.orderInfo{width:400px;}
+#orderById .userInfo,.orderInfo{width:400px;}
+#confirmOrder td input{width:200px;height:20px;}
+
